@@ -20,5 +20,12 @@ account. A sample .my.cnf file is included in this repo.
 # Usage
 `./simple-backup-creator.sh -k shoe_shop -p backups -d shoe_shop_database`
 
+Will produce a directory of up to 30 files with the following date-adjusted names:
+
+    shoe_shop_2020-06-14_030000.tar.gz
+    shoe_shop_2020-06-15_030000.tar.gz
+    shoe_shop_2020-06-16_030000.tar.gz
+    shoe_shop_2020-06-17_030000.tar.gz
+
 ## to see built-in help
 `./simple-backup-creator.sh -h`
